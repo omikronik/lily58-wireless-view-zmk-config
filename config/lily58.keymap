@@ -34,11 +34,11 @@
         lower_layer {
 
             bindings = <
-&trans  &kp F1  &kp F2 &kp F3 &kp F4 &kp F5                    &kp F6  &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
-&trans  &trans &trans &trans &trans &trans                     &trans  &trans &trans &trans &trans &kp F12
-&trans  &trans &trans &trans &trans &trans                     &trans  &trans &trans &trans &trans &trans
-&trans  &trans &trans &trans &trans &trans  &trans   &trans    &trans  &trans &trans &trans &trans &tog RPG
-                      &trans   &trans   &trans    &trans   &trans    &trans &trans &trans
+&trans  &kp F1  &kp F2 &kp F3 &kp F4 &kp F5                    &kp F6      &kp F7    &kp F8 &kp F9 &kp F10 &kp F11
+&trans  &trans &trans &trans &trans &trans                     &kp PG_UP   &kp PG_DN &kp HOME    &kp END  &kp CAPS &kp F12
+&trans  &sk LALT   &sk LGUI  &sk LSHFT  &sk LCTRL &trans       &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT    &trans &trans
+&trans  &trans &trans &trans &trans &trans  &trans   &trans    &kp LC(BSPC) &kp BSPC  &kp LG(LS(S)) &trans &trans &tog RPG
+                      &trans   &trans   &trans    &trans       &kp RET    &trans &trans &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -48,9 +48,9 @@
 
             bindings = <
 &trans    &trans     &trans     &trans    &trans    &trans                          &trans      &trans    &trans    &trans    &trans    &trans
-&trans    &kp EXCL   &kp AT     &kp LPAR  &kp RPAR  &trans                          &kp KP_PLUS &kp MINUS &kp EQUAL &trans    &trans    &trans
-&trans    &kp HASH   &kp DLLR   &kp LBRC  &kp RBRC  &kp GRAV                        &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT &trans    &trans      
-&trans    &kp CARET  &kp PRCNT  &kp LBKT  &kp RBKT  &kp TILDE   &trans   &trans     &kp AMPS    &kp ASTRK &kp UNDER &kp BSLH  &kp PIPE  &trans
+&trans    &kp CARET  &kp DLLR   &kp LBKT  &kp RBKT  &kp GRAV                        &kp KP_PLUS &kp MINUS &kp EQUAL &kp TILDE &trans    &trans
+&trans    &kp HASH   &kp PRCNT  &kp LBRC  &kp RBRC  &kp DQT                         &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT &kp COLON &trans      
+&trans    &kp EXCL   &kp AT     &kp LPAR  &kp RPAR  &kp SQT     &trans   &trans     &kp ASTRK   &kp AMPS  &kp UNDER &kp BSLH  &kp PIPE  &trans
                                       &trans  &trans  &trans    &trans   &trans     &trans      &trans    &trans
             >;
 
