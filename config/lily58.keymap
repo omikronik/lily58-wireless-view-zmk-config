@@ -34,11 +34,11 @@
         lower_layer {
 
             bindings = <
-&trans  &kp F1   &kp F2    &kp F3            &kp F4            &kp F5         &kp F6       &kp F7    &kp F8        &kp F9     &kp F10         &kp F11
-&trans  &trans   &trans    &kp LC(LG(LEFT))  &kp LC(LG(RIGHT)) &trans         &kp PG_UP    &kp PG_DN &kp HOME      &kp END    &kp CAPS        &kp F12
-&trans  &sk LALT &sk LGUI  &sk LSHFT         &sk LCTRL         &trans         &kp LEFT     &kp DOWN  &kp UP        &kp RIGHT  &trans          &trans
-&trans  &trans   &trans    &trans            &trans            &trans         &kp LC(BSPC) &kp BSPC  &kp LG(LS(S)) &trans     &trans          &tog RPG
-                 &trans    &trans            &trans            &trans         &kp RET      &trans    &trans        &trans
+&trans  &kp F1    &kp F2    &kp F3            &kp F4            &kp F5                   &kp F6       &kp F7    &kp F8        &kp F9     &kp F10         &kp F11
+&trans  &kp ESC   &trans    &kp LC(LG(LEFT))  &kp LC(LG(RIGHT)) &trans                   &kp PG_UP    &kp PG_DN &kp HOME      &kp END    &kp CAPS        &kp F12
+&trans  &sk LALT  &sk LGUI  &sk LSHFT         &sk LCTRL         &trans                   &kp LEFT     &kp DOWN  &kp UP        &kp RIGHT  &trans          &trans
+&trans  &kp LC(Z) &kp LC(x) &kp LC(C)         &kp TAB           &kp LC(V) &trans &trans  &kp LC(BSPC) &kp BSPC  &kp LG(LS(S)) &trans     &trans          &tog RPG
+                  &trans    &trans            &trans            &trans           &kp RET &trans       &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
