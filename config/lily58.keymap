@@ -26,7 +26,7 @@
 &kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                              &kp Y  &kp U    &kp I     &kp O   &kp P    &kp SQT
 &kp LSHFT &kp A  &kp S  &kp D    &kp F    &kp G                              &kp H  &kp J    &kp K     &kp L   &kp SEMI &kp RSHFT
 &kp LCTRL &kp Z  &kp X  &kp C    &kp V    &kp B  &kp C_VOL_DN   &kp C_VOL_UP &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp RCTRL
-                        &kp LALT &kp LGUI &mo LOWER  &kp SPACE      &kp BSPC &mo RAISE  &kp RET  &kp RGUI
+                        &kp LALT &kp LGUI &mo LOWER  &kp SPACE      &mt LSHIFT BSPC &mo RAISE  &kp RET  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -50,8 +50,8 @@
             bindings = <
 &trans    &trans     &trans     &trans    &trans    &trans                          &trans      &trans    &trans    &trans    &trans    &trans
 &trans    &kp CARET  &kp DLLR   &kp LBKT  &kp RBKT  &kp GRAV                        &kp KP_PLUS &kp MINUS &kp EQUAL &kp TILDE &trans    &trans
-&trans    &kp HASH   &kp PRCNT  &kp LBRC  &kp RBRC  &kp DQT                         &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT &kp COLON &trans      
-&trans    &kp EXCL   &kp AT     &kp LPAR  &kp RPAR  &kp SQT     &trans   &trans     &kp ASTRK   &kp AMPS  &kp UNDER &kp BSLH  &kp PIPE  &trans
+&trans    &kp HASH   &kp PRCNT  &kp LBRC  &kp RBRC  &kp SQT                         &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT &kp COLON &trans      
+&trans    &kp EXCL   &kp AT     &kp LPAR  &kp RPAR  &kp DQT     &trans   &trans     &kp ASTRK   &kp AMPS  &kp UNDER &kp BSLH  &kp PIPE  &trans
                                       &trans  &trans  &trans    &trans   &trans     &trans      &trans    &trans
             >;
 
